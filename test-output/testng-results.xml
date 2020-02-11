@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="customer_issues" duration-ms="20242" started-at="2019-10-20T08:43:47Z" finished-at="2019-10-20T08:44:07Z">
+    <groups>
+    </groups>
+    <test name="testcases" duration-ms="20242" started-at="2019-10-20T08:43:47Z" finished-at="2019-10-20T08:44:07Z">
+      <class name="Issue.testcases.IssueModification">
+        <test-method status="PASS" signature="modifyIssueById(java.lang.String, java.lang.String)[pri:0, instance:Issue.testcases.IssueModification@3bfdc050]" name="modifyIssueById" duration-ms="855" started-at="2019-10-20T08:44:05Z" description="Update an issue" data-provider="updateIssueDP" finished-at="2019-10-20T08:44:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5888b0d1f54b5f590000040f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[title is updated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyIssueById -->
+        <test-method status="PASS" signature="modifyIssueById(java.lang.String, java.lang.String)[pri:0, instance:Issue.testcases.IssueModification@3bfdc050]" name="modifyIssueById" duration-ms="963" started-at="2019-10-20T08:44:05Z" description="Update an issue" data-provider="updateIssueDP" finished-at="2019-10-20T08:44:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5da83d38a0e3560400001a84]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[title2 updated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyIssueById -->
+        <test-method status="PASS" signature="modifyIssueById(java.lang.String, java.lang.String)[pri:0, instance:Issue.testcases.IssueModification@3bfdc050]" name="modifyIssueById" duration-ms="981" started-at="2019-10-20T08:44:06Z" description="Update an issue" data-provider="updateIssueDP" finished-at="2019-10-20T08:44:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5da853dca0e3560400001b3a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[title3 updated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyIssueById -->
+      </class> <!-- Issue.testcases.IssueModification -->
+      <class name="Issue.testcases.IssueList">
+        <test-method status="PASS" signature="getIssuesList()[pri:0, instance:Issue.testcases.IssueList@1e88b3c]" name="getIssuesList" duration-ms="3511" started-at="2019-10-20T08:43:47Z" description="Get list of all Issues" finished-at="2019-10-20T08:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIssuesList -->
+        <test-method status="PASS" signature="getIssuesListByID(java.lang.String)[pri:0, instance:Issue.testcases.IssueList@1e88b3c]" name="getIssuesListByID" duration-ms="883" started-at="2019-10-20T08:43:51Z" description="Get List of Issues by its ID" data-provider="idDP" finished-at="2019-10-20T08:43:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5887dd51f54b5f59000000d8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIssuesListByID -->
+        <test-method status="PASS" signature="getIssuesListByID(java.lang.String)[pri:0, instance:Issue.testcases.IssueList@1e88b3c]" name="getIssuesListByID" duration-ms="992" started-at="2019-10-20T08:43:52Z" description="Get List of Issues by its ID" data-provider="idDP" finished-at="2019-10-20T08:43:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[588893fbf54b5f59000003ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIssuesListByID -->
+        <test-method status="PASS" signature="getIssuesListByQuery(java.lang.String, java.lang.String)[pri:0, instance:Issue.testcases.IssueList@1e88b3c]" name="getIssuesListByQuery" duration-ms="1006" started-at="2019-10-20T08:43:53Z" description="Get list of Issues using a Query" data-provider="queryDP" finished-at="2019-10-20T08:43:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fromemail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[knutmt@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIssuesListByQuery -->
+        <test-method status="PASS" signature="getIssuesListByQuery(java.lang.String, java.lang.String)[pri:0, instance:Issue.testcases.IssueList@1e88b3c]" name="getIssuesListByQuery" duration-ms="995" started-at="2019-10-20T08:43:54Z" description="Get list of Issues using a Query" data-provider="queryDP" finished-at="2019-10-20T08:43:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fromemail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jbeejones@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIssuesListByQuery -->
+      </class> <!-- Issue.testcases.IssueList -->
+      <class name="Issue.testcases.IssueCreation">
+        <test-method status="PASS" signature="createIssue(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Issue.testcases.IssueCreation@42d80b78]" name="createIssue" duration-ms="5041" started-at="2019-10-20T08:43:55Z" description="Create an Issue" data-provider="CreateIssueDP" finished-at="2019-10-20T08:44:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[title is updated]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[knutmt@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is a new issue 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssue -->
+        <test-method status="PASS" signature="createIssue(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Issue.testcases.IssueCreation@42d80b78]" name="createIssue" duration-ms="4035" started-at="2019-10-20T08:44:00Z" description="Create an Issue" data-provider="CreateIssueDP" finished-at="2019-10-20T08:44:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[title2 updated]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[knutmt@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is a new issue 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssue -->
+      </class> <!-- Issue.testcases.IssueCreation -->
+    </test> <!-- testcases -->
+  </suite> <!-- customer_issues -->
+</testng-results>

@@ -1,0 +1,5 @@
+Issue\testcases\IssueCreation.class
+dataproviders\request\DataProviders.class
+Issue\testcases\IssueModification.class
+Issue\testcases\IssueList.class
+dataproviders\request\RequestProperties.class

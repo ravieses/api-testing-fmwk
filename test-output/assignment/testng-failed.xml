@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [assignment]">
+  <test thread-count="5" name="getTests(failed)">
+    <classes>
+      <class name="IssueCreation">
+        <methods>
+          <include name="createIssue" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- IssueCreation -->
+    </classes>
+  </test> <!-- getTests(failed) -->
+</suite> <!-- Failed suite [assignment] -->
